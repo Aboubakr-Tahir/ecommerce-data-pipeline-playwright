@@ -1,0 +1,37 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore Secrets
+data/auth.json
+.env
+
+# Ignore Docker Data (if mapped locally)
+mongo-data/
+
+# Ignore Virtual Env
+.venv/
+
+edge_bot_profile/
+
+Python
+
+pycache/
+*.pyc
+.venv/
+venv/
+
+Secrets & Keys (NEVER UPLOAD THESE)
+
+data/auth.json
+.env
+
+Database & Docker Data
+
+mongo-data/
+docker/mongo-data/
+
+Logs & Backups
+
+*.log
+failed_inserts.jsonl
