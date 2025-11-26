@@ -9,7 +9,7 @@ from playwright.sync_api import sync_playwright
 EDGE_PATH = r"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
 # EDGE_PATH = r"C:\Program Files\Microsoft\Edge\Application\msedge.exe"
 
-# 2. New folder for the Edge Bot Profile
+
 USER_DATA_DIR = os.path.abspath("edge_bot_profile")
 
 # 3. Target
@@ -24,7 +24,7 @@ def get_real_edge_cookies():
 
     print(f"🚀 Step 1: Launching REAL EDGE from: {EDGE_PATH}")
     
-    # Launch Edge with Debug Port 9223 (Using a different port than Chrome just in case)
+   
     cmd = [
         EDGE_PATH,
         f"--user-data-dir={USER_DATA_DIR}", 
